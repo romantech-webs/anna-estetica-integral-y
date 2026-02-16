@@ -1,281 +1,333 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Anna estética integral y bienestar",
+  logo: "/images/logo.png",
+  tagline: "Tu bienestar y belleza en Tomelloso",
+  description: "Anna estética integral y bienestar es tu centro de referencia en Tomelloso, Ciudad Real, con 4.9 estrellas y 68 reseñas en Google. Especialistas en tratamientos faciales, manicura y pedicura, depilación, maquillaje profesional y cuidado personalizado. Anna y su equipo te ofrecen un trato cercano, profesional y adaptado a tus necesidades, con protocolos de seguridad que garantizan tu confianza en cada visita.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#C9A86C",
+    secondary: "#2D2D2D",
+    accent: "#D4A574",
+    neutral: "#FAF8F5"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
+  phone: "695 30 35 88",
+  whatsapp: "+34695303588",
   whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
+    street: "C. Estación, 90, 13700 Tomelloso, Ciudad Real, España",
+    city: "Tomelloso",
     province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    postalCode: "13700",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=857098342098481482&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Anna%20est%C3%A9tica%20integral%20y%20bienestar%20%4039.148%2C-3.02816&z=16&output=embed",
+  coordinates: {
+    lat: 39.148,
+    lng: -3.02816
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "lunes",
+      hours: "Cerrado"
+    },
+    {
+      days: "martes - viernes",
+      hours: "9:00–13:00, 16:00–21:00"
+    },
+    {
+      days: "sábado",
+      hours: "9:00–14:00"
+    },
+    {
+      days: "domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 4.9,
+    count: 68,
+    url: "https://maps.google.com/?cid=857098342098481482&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Luis Ballesteros",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Trato esquisto, cercanía y comodidad, buscando la comodidad del cliente. Trato personalizado y atención maravillosa, además es una gerente que trabaja con colectivos en riesgo de inclusión social y dedica parte de sus ganancias a las personas con discapacidad, realizando bajadas de precios. En definitiva una mujer empatica y cariñosa. Merece la pena utilizar sus servicios.",
+        date: "Hace 3 años"
       },
       {
-        author: "Javier Padilla",
+        author: "Maria Del Mar Ponce Jimenez",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Centro muy personalizado a las necesidades del cliente. Cercanía en el trato y profesionalidad. Cuidado de la persona. Ante la situación actual de Covid se cumple todo protocolo y da mucha confianza. En lo que se refiere al trato conmigo, le pongo una alta puntuación en todos los campos. Gracias.",
+        date: "Hace 5 años"
       },
       {
-        author: "Melanie Ponce",
+        author: "Mar Gomez",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Ana una muy buena persona,  superagradale, tiene un trato tan especial con los client@s que te hace sentir cómod@ en todo momento.\nMuy buena profesional, que lo sepas estoy encantada contigo.\nANA LA RECOMIENDO 100%\nPor muchos años MÁS .\nUn besazo guapísima ¡!!! Nos vemos 😜💋",
+        date: "Hace 3 años"
       },
       {
-        author: "María Teresa Salguero",
+        author: "Elisa Alvarez Lara",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
+        text: "Ana es una profesional de 10, es muy atenta, muy amable y muy profesional, siempre salgo súper contenta y con las uñas perfectas y muy duraderas. La cera la hace con muchísimo cuidado y apenas lo notas, increíble y es muy buena maquilladora.La recomiendo sin dudar.",
+        date: "Hace 5 años"
       },
-    ],
+      {
+        author: "Juan Miguel Morales López",
+        rating: 5,
+        text: "Ana, una maravillosa profesional.  Un amplio abanico de servicios impecables y un trato cercano.  Totalmente recomendado.",
+        date: "Hace 6 meses"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
-    {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
-    },
-    {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
-    },
-    {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
-    },
     {
       id: "tratamientos-faciales",
       name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
-    },
-    {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      description: "Cuidados personalizados para cada tipo de piel con productos de alta gama. Tratamientos de hidratación profunda, antiedad y luminosidad que devuelven la vitalidad a tu rostro. Analizamos tu piel y diseñamos el protocolo perfecto para ti.",
+      benefits: [
+        "Hidratación profunda y duradera",
+        "Reducción visible de líneas de expresión",
+        "Luminosidad y textura mejorada"
+      ],
+      icon: "Sparkles"
     },
     {
       id: "manicura-pedicura",
       name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      description: "Cuidado completo de manos y pies con esmaltes de alta calidad y acabados impecables. Nuestras clientas destacan la durabilidad y perfección de nuestras uñas. Desde manicuras clásicas hasta diseños personalizados que duran semanas.",
+      benefits: [
+        "Uñas perfectas y muy duraderas",
+        "Esmaltes de larga duración",
+        "Diseños personalizados a tu estilo"
+      ],
+      icon: "Hand"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "depilacion",
+      name: "Depilación con Cera",
+      description: "Técnica de depilación profesional realizada con muchísimo cuidado para minimizar molestias. Utilizamos productos de calidad que respetan tu piel y ofrecen resultados suaves y duraderos. Nuestras clientas destacan lo poco que se nota el proceso.",
+      benefits: [
+        "Técnica cuidadosa y casi indolora",
+        "Piel suave durante semanas",
+        "Productos que respetan tu piel"
+      ],
+      icon: "Flower2"
     },
     {
       id: "maquillaje-profesional",
       name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
+      description: "Servicio de maquillaje para eventos, celebraciones o tu día a día. Anna es reconocida como excelente maquilladora, creando looks naturales o sofisticados según la ocasión. Resaltamos tu belleza natural con técnicas profesionales y productos de primera calidad.",
+      benefits: [
+        "Maquillaje adaptado a cada ocasión",
+        "Técnicas profesionales de larga duración",
+        "Resultados naturales y favorecedores"
+      ],
+      icon: "Sparkles"
     },
+    {
+      id: "tratamientos-corporales",
+      name: "Tratamientos Corporales",
+      description: "Tratamientos reductores, reafirmantes y anticelulíticos diseñados para modelar tu silueta. Combinamos técnicas manuales con tecnología avanzada para resultados visibles. Cada sesión está adaptada a tus objetivos y necesidades específicas.",
+      benefits: [
+        "Reducción de medidas visible",
+        "Piel más firme y tonificada",
+        "Tratamiento personalizado a tus objetivos"
+      ],
+      icon: "Heart"
+    },
+    {
+      id: "micropigmentacion",
+      name: "Micropigmentación",
+      description: "Maquillaje semipermanente para cejas, labios y ojos con resultados naturales y armoniosos. Diseñamos la forma perfecta para tu rostro y utilizamos pigmentos de máxima calidad. Despierta perfecta cada mañana sin necesidad de maquillarte.",
+      benefits: [
+        "Resultados naturales y duraderos",
+        "Diseño personalizado para tu rostro",
+        "Ahorra tiempo en tu rutina diaria"
+      ],
+      icon: "Eye"
+    },
+    {
+      id: "extensiones-pestanas",
+      name: "Extensiones de Pestañas",
+      description: "Mirada impactante con extensiones pelo a pelo que respetan tus pestañas naturales. Conseguimos el efecto que deseas: natural, volumen o glamuroso. Aplicación cuidadosa para máxima comodidad y durabilidad.",
+      benefits: [
+        "Mirada más intensa y expresiva",
+        "Aplicación pelo a pelo respetuosa",
+        "Duración de varias semanas"
+      ],
+      icon: "Eye"
+    },
+    {
+      id: "asesoramiento-personalizado",
+      name: "Asesoramiento Personalizado",
+      description: "Estudiamos tus necesidades específicas y diseñamos un plan de tratamientos adaptado a ti. En Anna estética integral y bienestar cada cliente es único y merece una atención exclusiva. Te acompañamos en tu proceso de bienestar con seguimiento continuo.",
+      benefits: [
+        "Plan de tratamientos a tu medida",
+        "Seguimiento continuo de resultados",
+        "Atención cercana y profesional"
+      ],
+      icon: "Heart"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Contacta con Nosotros",
+      description: "Llámanos al 695 30 35 88 o escríbenos por WhatsApp para solicitar tu cita. Te atendemos con cercanía y te asesoramos sobre el mejor momento para tu visita."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Consulta Personalizada",
+      description: "En tu primera visita, Anna analizará tus necesidades específicas y diseñará un tratamiento completamente adaptado a ti. Buscamos tu comodidad desde el primer momento."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Tratamiento Profesional",
+      description: "Realizamos tu tratamiento con técnicas avanzadas, productos premium y el máximo cuidado. Cumplimos todos los protocolos de seguridad para que te sientas tranquila y confiada."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Resultados y Seguimiento",
+      description: "Disfruta de resultados visibles y duraderos. Te acompañamos con seguimiento personalizado y consejos para mantener los beneficios de tu tratamiento en el tiempo."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "4.9 Estrellas en Google",
+      description: "Más de 68 clientas satisfechas avalan nuestro trabajo con valoraciones excelentes. Nuestro compromiso con la calidad y el trato personalizado nos convierte en el centro de estética de referencia en Tomelloso.",
+      icon: "Sparkles"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Trato Personalizado y Cercano",
+      description: "En Anna estética integral y bienestar cada cliente es único. Buscamos tu comodidad desde el primer momento, adaptamos cada tratamiento a tus necesidades específicas y te hacemos sentir cómoda en todo momento con un trato empático y profesional.",
+      icon: "Heart"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Profesionalidad Reconocida",
+      description: "Anna es una profesional de 10 con amplia experiencia en todos los servicios de estética. Nuestras clientas destacan especialmente la calidad de la manicura de larga duración, la depilación cuidadosa y el maquillaje profesional impecable.",
+      icon: "Zap"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Compromiso Social y Valores",
+      description: "Trabajamos con colectivos en riesgo de exclusión social y dedicamos parte de nuestros recursos a personas con discapacidad. En Anna estética integral y bienestar la belleza va unida a valores de empatía, inclusión y responsabilidad social.",
+      icon: "Heart"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Anna",
+      role: "Directora y Especialista en Estética Integral",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
-    },
+      bio: "Profesionales apasionadas por la belleza y el cuidado personal. En Anna estética integral y bienestar nos dedicamos a realzar la belleza natural de cada clienta con tratamientos de calidad."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/hero.webp",
+      alt: "Anna estética integral y bienestar - Imagen 1"
+    },
+    {
+      src: "/images/gallery/2.webp",
+      alt: "Anna estética integral y bienestar - Imagen 2"
+    },
+    {
+      src: "/images/gallery/3.webp",
+      alt: "Anna estética integral y bienestar - Imagen 3"
+    },
+    {
+      src: "/images/gallery/4.webp",
+      alt: "Anna estética integral y bienestar - Imagen 4"
+    },
+    {
+      src: "/images/gallery/5.webp",
+      alt: "Anna estética integral y bienestar - Imagen 5"
+    },
+    {
+      src: "/images/gallery/6.webp",
+      alt: "Anna estética integral y bienestar - Imagen 6"
+    },
+    {
+      src: "/images/gallery/7.webp",
+      alt: "Anna estética integral y bienestar - Imagen 7"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Qué servicios ofrece Anna estética integral y bienestar?",
+      answer: "En Anna estética integral y bienestar ofrecemos una amplia gama de servicios: tratamientos faciales personalizados, manicura y pedicura de larga duración, depilación con cera, maquillaje profesional, tratamientos corporales reductores y reafirmantes, micropigmentación y extensiones de pestañas. Cada servicio está diseñado con atención personalizada y productos de alta calidad."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Cómo puedo reservar mi cita?",
+      answer: "Reservar tu cita es muy sencillo. Puedes llamarnos directamente al 695 30 35 88 o escribirnos por WhatsApp al mismo número. Te atenderemos con cercanía y te ayudaremos a encontrar el mejor horario según tus necesidades. Nuestro trato personalizado empieza desde el primer contacto."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Qué medidas de seguridad e higiene seguís?",
+      answer: "En Anna estética integral y bienestar cumplimos estrictamente todos los protocolos de seguridad e higiene. Nuestras clientas destacan en sus reseñas la confianza que les genera nuestro cumplimiento de las medidas sanitarias. Esterilizamos todo el material, utilizamos productos desechables cuando es necesario y mantenemos espacios perfectamente desinfectados."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Por qué las clientas recomiendan tanto Anna estética integral y bienestar?",
+      answer: "Nuestras 68 reseñas con 4.9 estrellas en Google hablan por sí solas. Las clientas destacan nuestro trato cercano y personalizado, la profesionalidad de Anna, la comodidad durante los tratamientos y la durabilidad de los resultados. Además, valoran especialmente la empatía, el cuidado de la persona y la atención a las necesidades individuales de cada cliente."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Cuánto duran los tratamientos de manicura y pedicura?",
+      answer: "Nuestras clientas destacan especialmente la durabilidad de nuestras manicuras y pedicuras. Utilizamos esmaltes de alta calidad y técnicas profesionales que garantizan uñas perfectas durante semanas. La duración exacta depende del tipo de esmalte elegido y de tus cuidados, pero te asesoraremos personalmente para maximizar los resultados."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿La depilación con cera duele mucho?",
+      answer: "En Anna estética integral y bienestar realizamos la depilación con cera con muchísimo cuidado y técnicas que minimizan las molestias. Nuestras clientas comentan en sus reseñas que apenas lo notan y destacan lo cuidadoso del proceso. Utilizamos productos de calidad que respetan tu piel y hacemos todo lo posible para que tu experiencia sea lo más confortable posible."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Ofrecéis tratamientos para ocasiones especiales?",
+      answer: "Sí, Anna es reconocida como excelente maquilladora profesional y ofrecemos servicios específicos para bodas, eventos y ocasiones especiales. Creamos looks personalizados que resaltan tu belleza natural. También podemos combinar maquillaje con tratamientos faciales previos para que luzcas radiante en tu día especial."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Dónde se encuentra Anna estética integral y bienestar?",
+      answer: "Estamos ubicados en Tomelloso, Ciudad Real. Somos el centro de estética de referencia en la zona, con más de 68 reseñas que avalan nuestra calidad y profesionalidad. Para conocer nuestra dirección exacta y cómo llegar, contáctanos al 695 30 35 88 y te indicaremos cómo encontrarnos fácilmente."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Anna estética integral y bienestar",
+    defaultTitle: "Anna estética integral y bienestar | Tomelloso",
+    defaultDescription: "Centro de estética en Tomelloso con 4.9★. Tratamientos faciales, manicura, depilación, maquillaje profesional y más. Trato personalizado y cercano. ☎ 695 30 35 88",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
+      "estética Tomelloso",
+      "centro estética Tomelloso",
+      "Anna estética integral bienestar",
+      "manicura Tomelloso",
+      "tratamientos faciales Tomelloso",
+      "depilación Tomelloso",
+      "maquillaje profesional Tomelloso",
+      "pedicura Tomelloso",
       "estética Ciudad Real",
+      "centro belleza Tomelloso",
+      "micropigmentación Tomelloso",
+      "extensiones pestañas Tomelloso"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Anna estética integral y bienestar",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "C. Estación, 90, 13700 Tomelloso, Ciudad Real, España, Tomelloso, Ciudad Real"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
+  heroHeadline: [
+    "Tu Centro de",
+    "Belleza",
+    "en Tomelloso"
+  ],
+  heroDescription: "En Anna estética integral y bienestar encontrarás más que tratamientos de belleza: descubrirás un espacio de confianza donde cada servicio está diseñado para ti. Con un trato personalizado, cercanía y profesionalidad, te ayudamos a sentirte bien contigo misma con técnicas avanzadas y productos de alta calidad.",
+  specialty: "Estética Personalizada",
   ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
+  ctaHeadline: "¿Lista para sentirte radiante y cuidada?",
+  ctaDescription: "Reserva tu cita en Anna estética integral y bienestar y descubre el trato personalizado que más de 68 clientes han valorado con 4.9 estrellas. Tu bienestar es nuestra prioridad.",
   statsLabel: "Clientas",
   schemaType: "BeautySalon",
   sectionCopy: {
@@ -300,8 +352,8 @@ export const clinic = {
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
     teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamDescription: "Experiencia y pasión al servicio de tu belleza"
+  }
 }
 
 export type Clinic = typeof clinic
